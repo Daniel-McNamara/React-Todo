@@ -2,6 +2,9 @@ import React from 'react';
 import TodoForm from './components/TodoForm';
 import TodoList from './components/TodoList';
 
+
+
+
 const list = [
   {
     task: 'Organize Garage',
@@ -69,7 +72,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <h2>Welcome to your Todo App!</h2>
+        <h2>Welcome to Daniels Todo App!</h2>
         <TodoForm addNewItem={this.addNewItem} />
         <TodoList 
           todoList={this.state.todoList}
